@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Landing from "./components/landingpage";
+import { Link } from "react-router-dom";
+import Main from "./components/main";
 import "./App.css";
 
 class App extends Component {
@@ -8,15 +9,15 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header title="Title" scroll>
+          <Header title="Brook" scroll>
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Conyact</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Brook">
             <Navigation>
               <a href="/">Link</a>
               <a href="/">Link</a>
@@ -26,7 +27,7 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            <Landing />
+            <Main />
           </Content>
         </Layout>
       </div>
