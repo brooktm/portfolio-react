@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Link } from "react-router-dom";
 import Main from "./components/main";
+import Resume from "./components/resume";
 import "./App.css";
 
 class App extends Component {
@@ -10,9 +11,14 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header
-            className="navheader"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "white"
+                }}
+                to="/"
+              >
                 Brook
               </Link>
             }

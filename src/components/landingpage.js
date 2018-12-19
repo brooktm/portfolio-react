@@ -9,7 +9,7 @@ class Landing extends Component {
           <Cell col={12} className="firstgrid">
             <img
               style={{ marginTop: "100px" }}
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584__480.png"
               alt="avatar"
               className="avatar-img"
             />
@@ -17,12 +17,9 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
-              <hr />
+              <hr style={{ margin: "20px 0" }} />
 
-              <p>
-                HTML/CSS | Bootstrap | JavaScript | React | React Native |
-                NodeJS | Express | MongoDB
-              </p>
+              <p>HTML/CSS | Bootstrap | JavaScript | React</p>
 
               <div className="social-links">
                 {/* LinkedIn */}
