@@ -90,3 +90,17 @@ i {
 i:hover {
   color: blue;
 }
+
+/* Projects list  */
+.projects-list {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 800px) {
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+}
