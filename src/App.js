@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Link } from "react-router-dom";
 import Main from "./components/main";
-import Resume from "./components/resume";
+
 import "./App.css";
 
 class App extends Component {
@@ -41,6 +41,7 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
+
             <Main />
           </Content>
         </Layout>

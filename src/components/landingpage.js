@@ -9,7 +9,8 @@ class Landing extends Component {
           <Cell col={12} className="firstgrid">
             <img
               style={{ marginTop: "100px" }}
-              src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584__480.png"
+              src={require("./img/300.jpg")}
+              src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png"
               alt="avatar"
               className="avatar-img"
             />
