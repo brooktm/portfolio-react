@@ -34,7 +34,7 @@ class Landing extends Component {
 
                 {/* Github */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/brooktm"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

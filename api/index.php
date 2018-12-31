@@ -1,5 +1,4 @@
 <?php
-ini_set('display_errors', 1);
 header("Access-Control-Allow-Origin: *");
 $rest_json = file_get_contents("php://input");
 $_POST = json_decode($rest_json, true);
@@ -29,7 +28,7 @@ if ($_POST)
 
 	// echo json_encode( $_POST );
 
-	echojson_encode(array(
+ echojson_encode(array(
 		"sent" => true
 	));
 	}

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-const API_PATH =
-  "http://localhost:3000/react-contact-form/api/contact/index.php";
+const API_PATH = "http://localhost:8888/portfolio-react/api/index.php";
+
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +34,7 @@ class Contact extends Component {
       <div className="contact-section">
         <h2 className="form-header">Contact Me</h2>
         <div>
-          <form action="/action_page.php">
+          <form action="./api/index.php" method="post">
             <label>First Name</label>
             <input
               type="text"

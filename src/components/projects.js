@@ -4,7 +4,6 @@ import {
   CardTitle,
   CardText,
   CardActions,
-  Button,
   CardMenu,
   IconButton
 } from "react-mdl";
