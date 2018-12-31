@@ -1,25 +1,12 @@
 * {
   box-sizing: border-box;
   font-family: roboto;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
   text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .container {
@@ -27,9 +14,7 @@
   justify-content: center;
   margin-top: 200px;
 }
-header {
-  background-color: #a3cd68;
-}
+
 .nav-menu {
   font-size: 24px;
 }
@@ -48,6 +33,9 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner-text {
   margin-top: 50px;
@@ -90,15 +78,11 @@ i:hover {
 .projects-list {
   margin-top: 80px;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 30px;
 }
-@media only screen and (max-width: 800px) {
-  .projects-list {
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-  }
-}
+
 /* contact me  */
 
 .contact-section {
@@ -155,4 +139,32 @@ input[type="submit"]:hover {
   border: 1px solid red;
   padding: 7px;
   font-weight: bold;
+}
+
+/* Resume */
+
+.resume-container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+  justify-content: space-between;
+}
+.resume-left-section {
+  flex: 1;
+  flex-basis: 20%;
+  margin-right: 10px;
+}
+.resume-right-section {
+  flex-basis: 80%;
+  flex: 2;
+  margin-left: 10px;
+}
+.mission-statement {
+  width: 600px;
+}
+.resume-avatar {
+  height: 200px;
+  text-align: center;
 }

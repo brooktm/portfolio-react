@@ -18,6 +18,7 @@ class App extends Component {
                   color: "white"
                 }}
                 to="/"
+                scroll
               >
                 Brook
               </Link>

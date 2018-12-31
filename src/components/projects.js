@@ -17,17 +17,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects-list">
-        {/* <Tabs
-          activetab={this.state.activetab}
-          onChange={tabId => this.setState({ activetab: tabId })}
-          ripple
-        >
-          <Tab>React</Tab>
-          <Tab>React</Tab>
-          <Tab>React</Tab>
-          <Tab>React</Tab>
-        </Tabs> */}
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card>
           <CardTitle
             style={{
               color: "#fff",
@@ -55,7 +45,7 @@ class Projects extends Component {
             <IconButton name="share" />
           </CardMenu>
         </Card>
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card>
           <CardTitle
             style={{
               color: "#fff",
@@ -83,7 +73,7 @@ class Projects extends Component {
             <IconButton name="share" />
           </CardMenu>
         </Card>
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card>
           <CardTitle
             style={{
               color: "#fff",

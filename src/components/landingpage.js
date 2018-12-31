@@ -4,12 +4,11 @@ import { Grid, Cell } from "react-mdl";
 class Landing extends Component {
   render() {
     return (
-      <div className="container" style={{ width: "100%", margin: "auto" }}>
+      <div className="container">
         <Grid className="landing-grid">
           <Cell col={12} className="firstgrid">
             <img
               style={{ marginTop: "100px" }}
-              src={require("./img/300.jpg")}
               src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png"
               alt="avatar"
               className="avatar-img"
@@ -34,7 +33,7 @@ class Landing extends Component {
 
                 {/* Github */}
                 <a
-                  href="https://github.com/brooktm"
+                  href="http://google.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
