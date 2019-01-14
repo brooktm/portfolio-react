@@ -1,6 +1,7 @@
 * {
+  font-size: 20px;
   box-sizing: border-box;
-  font-family: roboto;
+  font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,10 +14,6 @@
   display: flex;
   justify-content: center;
   margin-top: 200px;
-}
-
-.nav-menu {
-  font-size: 24px;
 }
 
 .landing-grid {
@@ -151,6 +148,10 @@ input[type="submit"]:hover {
   padding: 15px;
   justify-content: space-between;
 }
+.resume-container p {
+  font-size: 18px;
+  line-height: 1.5;
+}
 .resume-left-section {
   flex: 1;
   flex-basis: 20%;
@@ -165,6 +166,33 @@ input[type="submit"]:hover {
   width: 600px;
 }
 .resume-avatar {
-  height: 200px;
   text-align: center;
+}
+.resume-avatar img {
+  height: 200px;
+}
+
+/* About me section  */
+
+.aboutmeWrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+
+  margin: 25px;
+}
+.aboutPic {
+  width: 600px;
+  margin-left: 20px;
+}
+.aboutMeContent {
+  width: 800px;
+  margin: 60px 15px;
+}
+.aboutmeWrapper p {
+  font-size: 20px;
+  line-height: 2;
+}
+.aboutMeTitle {
+  margin: 30px 700px;
 }

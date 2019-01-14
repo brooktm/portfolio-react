@@ -15,7 +15,7 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Junior Web Developer</h1>
 
               <hr style={{ margin: "20px 0" }} />
 

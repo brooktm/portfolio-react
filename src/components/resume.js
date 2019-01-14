@@ -13,7 +13,6 @@ class Resume extends Component {
             <img
               src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png"
               alt="avatar"
-              style={{ height: "200px", textAlign: "center" }}
             />
           </div>
           <div className="address-section">
@@ -71,6 +70,7 @@ class Resume extends Component {
           <hr style={{ borderTop: "3px solid #e22947" }} />
           <h2>Skills</h2>
           <icon name="star">javascript</icon>
+
           <Skills skill="HTML/CSS" progress={80} />
           <Skills skill="NodeJS" progress={50} />
           <Skills skill="React" progress={25} />

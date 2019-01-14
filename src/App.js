@@ -13,10 +13,7 @@ class App extends Component {
           <Header
             title={
               <Link
-                style={{
-                  textDecoration: "none",
-                  color: "white"
-                }}
+                style={{ textDecoration: "none", color: "white" }}
                 to="/"
                 scroll
               >
@@ -26,10 +23,18 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/resume" style={{ fontSize: "20px" }}>
+                Resume
+              </Link>
+              <Link to="/aboutme" style={{ fontSize: "20px" }}>
+                About Me
+              </Link>
+              <Link to="/projects" style={{ fontSize: "20px" }}>
+                Projects
+              </Link>
+              <Link to="/contact" style={{ fontSize: "20px" }}>
+                Contact
+              </Link>
             </Navigation>
           </Header>
           <Drawer title="Brook">
